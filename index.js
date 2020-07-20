@@ -29,3 +29,8 @@ if (randomNumber1 > randomNumber2 && randomNumber1 > randomNumber3) {
 } else if (randomNumber3 > randomNumber1 && randomNumber3 > randomNumber1) {
   document.querySelector("h1").innerHTML = "Player 3 Wins! 🚩";
 }
+ else if(randomNumber1 === randomNumber2 ===randomNumber3)
+{
+  document.querySelector("h1").innerHTML = "Draw 👍";
+}
+
